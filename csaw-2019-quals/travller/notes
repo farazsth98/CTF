@@ -1,0 +1,9 @@
+struct trip
+{
+	char *destination; <-- also mallocd, pointer to it is here
+	int size;
+};
+
+We have a global variable trips that stores max 7 trip structs.
+
+HEAP FENG SHUI

