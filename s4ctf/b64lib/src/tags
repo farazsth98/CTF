@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B64_ERROR_INVALID_CHAR	base64.h	5;"	d
+B64_ERROR_INVALID_LEN	base64.h	6;"	d
+B64_ERROR_NONE	base64.h	4;"	d
+BUFFER_SIZE	main.c	7;"	d	file:
+__HEADER_BASE64__	base64.h	2;"	d
+__b64_error	base64.c	/^int __b64_error;$/;"	v
+__b64_init_reverse_table	base64.c	/^void __b64_init_reverse_table(void) {$/;"	f
+b64_reverse_table	base64.c	/^char b64_reverse_table[256] = {0};$/;"	v
+b64_table	base64.c	/^static const char b64_table[64] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/";$/;"	v	file:
+b64chkerr	base64.c	/^int b64chkerr(void) {$/;"	f
+b64decode	base64.c	/^void b64decode(const char *input, char *output, int size) {$/;"	f
+b64encode	base64.c	/^void b64encode(const char *input, char *output, int size) {$/;"	f
+b64errmsg	base64.c	/^const char *b64errmsg(void) {$/;"	f
+cnt	main.c	/^int cnt;$/;"	v
+main	main.c	/^int main(void) {$/;"	f
+menu	main.c	/^int menu() {$/;"	f
+readint	main.c	/^int readint(void) {$/;"	f
+readline	main.c	/^void readline(const char *msg, char *buf, int size) {$/;"	f
+setup	main.c	/^void setup(void) {$/;"	f
