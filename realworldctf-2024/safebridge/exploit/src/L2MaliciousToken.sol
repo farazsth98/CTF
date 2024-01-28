@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
+
+contract L2MaliciousToken {
+    address l1Weth;
+
+    function l1Token() external view returns (address) {
+        return l1Weth;
+    }
+
+    function setL1Weth(address weth) external {
+        l1Weth = weth;
+    }
+
+    function burn(address, uint256) external {}
+}
